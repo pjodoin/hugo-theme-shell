@@ -26,10 +26,10 @@ ignoreErrors = ["error-remote-getjson"]
   # ./[folderName]/
   # ...
   # Note: result of the tree command
-  userName = "jane"
-  pcName = "laptop"
-  workDir = "mydir"
-  profile = "profile.txt"
+  userName = "pierre"
+  pcName = "geekware.solutions"
+  workDir = "welcome"
+  profile = "about_us.txt"
 
   # Note: speed at which text is displayed on the terminal
   # Note: if set to 0, typing animation will be disabled
@@ -53,8 +53,11 @@ ignoreErrors = ["error-remote-getjson"]
   # activityDelay = 5 : deprecated
 
   description = """
-  Hi I am Jane Doe!
-  Nice to meet you!
+
+Welcome to Geekware Solutions,
+Your humble partner for innovative, personalized solutions.
+Expertise 💻 Software development and ☁ Systems administration.
+
   
   """
 
@@ -67,11 +70,7 @@ ignoreErrors = ["error-remote-getjson"]
   folderName = "my_activity"
   # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
   files = [ 
-    ["C/C++", "https://www.example.com/"],
-    ["Python", "https://www.example.com/"],
-    ["Go", "https://golang.org/"],
-    ["Hugo", "/post/some-activity.md"],
-    ["Docker", "/post/some-activity.md"],
+    ["Github", "https://www.github.com/geekwaresolutions"]
   ]
 
 [module]
